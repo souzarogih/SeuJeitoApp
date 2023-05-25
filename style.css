@@ -44,3 +44,38 @@ a {
   justify-content: center;
   margin-top: 100px;
 }
+
+.cliente-button {
+  height: 35px;
+  width: 171px;
+  left: 26px;
+  top: 441px;
+  border-radius: 45px;
+}
+
+.empresario-button {
+  height: 35px;
+width: 164px;
+left: 223px;
+top: 444px;
+border-radius: 45px;
+
+}
+
+.email-field {
+  height: 0px;
+width: 318px;
+left: 56px;
+top: 314px;
+border-radius: nullpx;
+
+}
+
+.passwd-field {
+  height: 0px;
+width: 318px;
+left: 56px;
+top: 376px;
+border-radius: nullpx;
+
+}
