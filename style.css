@@ -17,16 +17,35 @@
 width: 149px;
 height: 149px;
 left: 133px;
-top: 85px;
+top: 87px;
 
 /* background: url(Imagem1.png); */
 }
 
+.help {
+  position: absolute;
+width: 64px;
+height: 15px;
+left: 342px;
+top: 25px;
+
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+
+color: #B1B1B1;
+}
+
 .fields-login {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* margin-top: 50px; */
   /* height: 100vh; */
 
 }

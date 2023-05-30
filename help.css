@@ -1,0 +1,21 @@
+help-body {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+options-help {
+  position: absolute;
+width: 366px;
+height: 28px;
+left: calc(50% - 366px/2 + 10px);
+top: calc(50% - 28px/2 + 14px);
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #EFEFEF;
+}

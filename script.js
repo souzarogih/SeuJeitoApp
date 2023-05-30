@@ -14,4 +14,7 @@ function direcionaLoginApple() {
   window.location.href = "login/login-apple.html";
 }
 
+function direcionaajuda() {
+  window.location.href = "help.html";
+}
 
