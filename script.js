@@ -6,7 +6,9 @@ function direcionaHome() {
 function direcionaempresario() {
   window.location.href = "empresario/main-screen-empresario.html";
 }
-
+function direcionaempresario2() {
+  window.location.href = "conta-empresário2.html"
+}
 function direcionacliente() {
   window.location.href = "cliente/main-screen-cliente.html";
 }
@@ -25,20 +27,4 @@ function direcionaajuda() {
 
 function direcionaCriarConta() {
   window.location.href = "criar-conta.html";
-}
-
-function direcionaContaCriada() {
-  window.location.href = "conta-criada.html";
-}
-
-function direcionaLogin() {
-  window.location.href = "index.html";
-}
-
-function direcionaTelaCliente() {
-  window.location.href = "criar-conta-cliente.html";
-}
-
-function direcionaTelaEmpresario() {
-  window.location.href = "criar-contaEmpresario.html";
 }
