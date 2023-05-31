@@ -1,27 +1,53 @@
-<html>
-  <head>
-<meta charset="UTF-8">
-<title> Crie Sua Canta</title>
-  </head>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contaEmpresario2.css">
+  <title>Cadastro Empresário</title>
+</head>
 <body>
-  <h1>Empresário</h1>
-  <div class="numero">
-  <form action="/cadastro" method="post">
-    <label for="num">Numero de Telefone<br>(00)0 0000-0000:</label>
-    <input type="text" id="numero" name="numero do telefone" required><br><br>
-  </div>
-  <div class="Endereço">
-    <label for="End">Endereço:</label>
-    <input type="text" id="End" name="Endereço" required><br><br>
-  </div>
-  <div class="NumCasa">
-    <label for="Ncasa">Numero:</label>
-    <input type="number" id="Ncasa" name="Numero da casa" required><br><br>
-  </div>
-  <div class="Complemento">
-    <label for="Compl">Complemento:</label>
-    <input type="text" id="Compl" name="Complemento da residencia" required><br><br>
-  </div>
-  </form>
+  <main class="container">
+    <div class="top">
+      <div>
+        <button id="voltar"><img src="images/button-back-2.png" alt="volar para login"></button>
+      </div>
+      <div class="logo">
+        <img src="images/doseujeito-logo-top.png" alt="">
+      </div>
+    </div>
+    <div class="titulo">
+      <h1>Dados da Empresa</h1>
+      <br></div><br>
+    </div>
+    <form action="#">
+
+      <div class="input-group"> 
+        <div class="numero">
+          <form action="/cadastro" method="post">
+            <label for="num" class="label-input">(00)0 0000-0000:</label>
+            <input type="text" id="numero" name="numero do telefone" class= "inputUser" required><br><br>
+          </div>
+          <div class="Endereço">
+            <label for="End" class="label-input">Endereço:</label>
+            <input type="text" id="End" name="Endereço" class= "inputUser"required><br><br>
+          </div>
+          <div class="NumCasa">
+            <label for="Ncasa" class="label-input">Numero:</label>
+            <input type="number" id="Ncasa" name="Numero da casa" class= "inputUser" required><br><br>
+          </div>
+          <div class="Complemento">
+            <label for="Complemento" class="label-input">Complemento:</label>
+            <input type="text" id="Compl" name="Complemento da residencia" class= "inputUser" required><br><br>
+          </div>
+      </div>
+    
+    </form>
+    <div class="avançar-button">
+      <button href="contaEmpresario2.html" class="avançar"><a>Avançar</a></button>
+    </div>  
+  </main>
+  
 </body>
 </html>
