@@ -34,3 +34,11 @@ function direcionaContaCriada() {
 function direcionaLogin() {
   window.location.href = "index.html";
 }
+
+function direcionaTelaCliente() {
+  window.location.href = "criar-conta-cliente.html";
+}
+
+function direcionaTelaEmpresario() {
+  window.location.href = "criar-contaEmpresario.html";
+}
