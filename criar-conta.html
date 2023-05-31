@@ -1,5 +1,30 @@
 <html>
+  <head>
+<meta charset="UTF-8">
+<title> Crie Sua Canta</title>
+  </head>
 <body>
-  <h1>Crie aqui sua conta</h1>
+  <h1>Criar Conta</h1>
+  <div class="email">
+  <form action="/cadastro" method="post">
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required><br><br>
+  </div>
+  <div class="nome">
+    <label for="username">Usuário:</label>
+    <input type="text" id="username" name="username" required><br><br>
+  </div>
+  <div class="senha">
+    <label for="password">Senha:</label>
+    <input type="password" id="password" name="password" required><br><br>
+  </div>
+  <div class="ConfirmarSenha">
+    <label for="confirm_password">Confirme sua senha:</label>
+    <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+  </div>
+  <div class="Cadastrar">
+    <input type="submit" value="Cadastrar">
+  </div>
+  </form>
 </body>
 </html>
