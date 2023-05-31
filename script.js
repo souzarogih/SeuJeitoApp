@@ -1,3 +1,8 @@
+
+function direcionaHome() {
+  window.location.href = "index.html";
+}
+
 function direcionaempresario() {
   window.location.href = "empresario/main-screen-empresario.html";
 }
@@ -18,3 +23,6 @@ function direcionaajuda() {
   window.location.href = "help.html";
 }
 
+function direcionaCriarConta() {
+  window.location.href = "criar-conta.html";
+}

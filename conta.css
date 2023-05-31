@@ -1,18 +1,67 @@
+.button-back {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 65px;
+    top: 57px;
+    transform: rotate(-180deg);
+  }
+
+.main-page {
+    background: #132A3E;
+  }
 
 .nome{
     position: absolute;
-width: 65px;
-height: 27px;
-left: 88px;
-top: 109px;
+    width: 65px;
+    height: 27px;
+    left: 88px;
+    top: 109px;
 
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 27px;
-text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
 
-color: #D9D9D9;
+    color: #D9D9D9;
 
+}
+
+.email {
+    position: absolute;
+    width: 335px;
+    height: 47px;
+    left: 57px;
+    top: 198px;
+
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #B1B1B1;
+}
+
+
+.usuario {
+    position: absolute;
+    width: 335px;
+    height: 47px;
+    left: 57px;
+    top: 277px;
+
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #B1B1B1;
 }
