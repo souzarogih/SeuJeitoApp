@@ -2,38 +2,41 @@
   <head>
     <meta charset="UTF-8">
     <title> Crie Sua Canta</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="conta.css">
   </head>
   <body class="main-page">
 
-    <img href="index.html" src="\images\button-back.png" class="button-back" onclick="direcionaHome()"></img>
+    <script src="script.js"></script>
 
-    <h1>Criar Conta</h1>
+    <div class="logo-pages">
+      <img href="index.html" src="\images\button-back-2.png" class="button-back" onclick="direcionaHome()"></img>
+      <img src="\images\logo-pages.png" alt="Logo Do seu Jeito" width="267" height="69">  
+    </div>
+
+    
+
+    <h3 class="cliente-title">Cliente</h3>
 
     <!-- <form action="/cadastro" method="post"></form> -->
 
       <div>  
-        <!-- <label for="email">E-mail:</label> -->
         <input class="email" placeholder="E-mail" type="email" name="email" required><br><br>
       </div>
 
       <div>
-        <!-- <label for="username">Usuário:</label> -->
-        <input class="usuario" placeholder="Nome" type="text" name="username" required><br><br>
+        <input class="nome" placeholder="Nome" type="text" name="username" required><br><br>
       </div>
 
       <div>
-        <!-- <label for="password">Senha:</label> -->
         <input class="senha" type="password" placeholder='Senha' name="password" required><br><br>
       </div>
 
       <div>
-        <!-- <label for="confirm_password">Confirme sua senha:</label> -->
         <input class="ConfirmarSenha" type="password" placeholder="Confirmar Senha" name="confirm_password" required><br><br>
       </div>
 
-      <div class="Cadastrar">
-        <input type="submit" value="Cadastrar">
+      <div>
+        <input class="cadastrar-button" type="submit" value="Cadastrar">
       </div>
 
     <!-- </form> -->

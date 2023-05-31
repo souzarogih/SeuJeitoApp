@@ -100,20 +100,20 @@ border-radius: 45px;
 
 .email-field {
   position: absolute;
-width: 335px;
-height: 47px;
-left: 56px;
-top: 273px;
+  width: 335px;
+  height: 47px;
+  left: 56px;
+  top: 273px;
 
-font-family: 'Inria Serif';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-display: flex;
-align-items: center;
+  font-family: 'Inria Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
 
-color: #F4EBEB;
+  color: #F4EBEB;
 
 }
 
