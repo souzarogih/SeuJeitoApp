@@ -2,46 +2,55 @@
   <head>
     <meta charset="UTF-8">
     <title> Crie Sua Canta</title>
-    <link rel="stylesheet" href="conta.css">
+    <link rel="stylesheet" href="css/criar-conta.css">
   </head>
   <body class="main-page">
+    <script src="script.js">
 
-    <script src="script.js"></script>
+    </script>
+    <div class="container">
+      
 
-    <div class="logo-pages">
-      <img href="index.html" src="\images\button-back-2.png" class="button-back" onclick="direcionaHome()"></img>
-      <img src="\images\logo-pages.png" alt="Logo Do seu Jeito" width="267" height="69">  
-    </div>
-
-    <div>
-      <button onclick="direcionaTelaCliente()" class="cliente-title2">Cliente</button>
-      <button onclick="direcionaTelaEmpresario()" class="empresario-title">Empresário</button>
+      <div class="logo-pages">
+        <div> 
+          <img href="index.html" src="images/button-back.png" class="button-back" onclick="direcionaHome()"></img>
+        </div>
+        <div class= "logo">
+          <img src="images/doseujeito-logo-top.png" alt="Logo Do seu Jeito"> 
+        </div> 
+      </div>
+  
+      <div class="userType">
+        <button onclick="direcionaTelaCliente()" class="cliente-title2">Cliente</button>
+        <button onclick="direcionaTelaEmpresario()" class="empresario-title">Empresário</button>
+      </div>
+        <form action="/cadastro" method="post" >
+          <div class="input-group">
+            <label for="email" class="label-input">E-mail:</label>
+            <input type="email" id="email" name="email" class= "inputUser" required><br><br>
+          </div>
+          <div class="input-group">
+            <label for="username" class="label-input">Usuário:</label>
+            <input type="text" id="username" name="username" class= "inputUser"required><br><br>
+          </div>
+          <div class="input-group">
+            <label for="Empresa" class="label-input">Nome da Empresa:</label>
+            <input type="text" id="username" name="Nome da Empresa" class= "inputUser"required><br><br>
+          </div>
+          <div class="input-group">
+            <label for="password" class="label-input">Senha:</label>
+            <input type="password" id="password" name="password" class= "inputUser"required><br><br>
+          </div>
+          <div class="input-group">
+            <label for="confirm_password" class="label-input">Confirme sua senha:</label>
+            <input type="password" id="confirm_password" name="confirm_password" class= "inputUser" required><br><br>
+          </div>
+        </form>
+        <div class="avançar-button">
+          <button onclick="redirecionaempresario2()" class="avançar"><a>Avançar</a></button>
+        </div>  
     </div>
 
     
-
-    <!-- <form action="/cadastro" method="post"></form> -->
-
-      <div>  
-        <input class="email" placeholder="E-mail" type="email" name="email" required><br><br>
-      </div>
-
-      <div>
-        <input class="nome" placeholder="Nome" type="text" name="username" required><br><br>
-      </div>
-
-      <div>
-        <input class="senha" type="password" placeholder='Senha' name="password" required><br><br>
-      </div>
-
-      <div>
-        <input class="ConfirmarSenha" type="password" placeholder="Confirmar Senha" name="confirm_password" required><br><br>
-      </div>
-
-      <div>
-        <input class="cadastrar-button" type="submit" value="Cadastrar" onclick="direcionaContaCriada()">
-      </div>
-
-    <!-- </form> -->
   </body>
 </html>
