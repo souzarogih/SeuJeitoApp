@@ -119,3 +119,10 @@ body {
     cursor: pointer;
 
 }
+
+.UserType{
+    left: 2rem;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
