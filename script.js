@@ -26,3 +26,11 @@ function direcionaajuda() {
 function direcionaCriarConta() {
   window.location.href = "criar-conta.html";
 }
+
+function direcionaContaCriada() {
+  window.location.href = "conta-criada.html";
+}
+
+function direcionaLogin() {
+  window.location.href = "index.html";
+}
