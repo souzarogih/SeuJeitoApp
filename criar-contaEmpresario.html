@@ -1,31 +1,34 @@
 <html>
   <head>
-<meta charset="UTF-8">
-<title> Crie Sua Canta</title>
+    <meta charset="UTF-8">
+    <title> Crie Sua Canta</title>
+    <link rel="stylesheet" href="contaEmpresario.css">
   </head>
-<body>
+<body class="main-page"> 
+
   <h1>Criar Conta</h1>
-  <div class="email">
+
+  <div>
   <form action="/cadastro" method="post">
-    <label for="email">E-mail:</label>
-    <input type="email" id="email" name="email" required><br><br>
+    <input placeholder="E-mail" class="email" type="email" id="email" name="email" required><br><br>
   </div>
-  <div class="nome">
-    <label for="username">Usuário:</label>
-    <input type="text" id="username" name="username" required><br><br>
+
+  <div >
+    <input placeholder="nome" class="nome" type="text" id="username" name="username" required><br><br>
   </div>
-  <div class="nomeEmpresa">
-    <label for="Empresa">Nome da Empresa:</label>
-    <input type="text" id="username" name="Nome da Empresa" required><br><br>
+
+  <div >
+    <input placeholder="nomeEmpresa" class="nomeEmpresa" type="text" id="username" name="Nome da Empresa" required><br><br>
   </div>
-  <div class="senha">
-    <label for="password">Senha:</label>
-    <input type="password" id="password" name="password" required><br><br>
+
+  <div>
+    <input placeholder="senha" class="senha" type="password" id="password" name="password" required><br><br>
   </div>
-  <div class="ConfirmarSenha">
-    <label for="confirm_password">Confirme sua senha:</label>
-    <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+  <div >
+    <input placeholder="ConfirmarSenha" class="ConfirmarSenha" type="password" id="confirm_password" name="confirm_password" required><br><br>
   </div>
+
     <a href="contaEmpresario2.html" class="text">Avançar</a>
   </form>
 </body>
