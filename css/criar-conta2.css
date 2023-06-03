@@ -57,7 +57,7 @@ body {
     z-index: 2;
 
 }
-.cliente-title2 {
+.empresario-title {
     cursor: pointer;
     width: 213px;
     height: 76px;
@@ -69,7 +69,7 @@ body {
     margin-bottom: -15px;
 }
 
-.cliente-title2:hover{
+.empresario-title:hover{
         cursor: pointer;
         width: 213px;
         height: 76px;
@@ -77,17 +77,17 @@ body {
         top: 98px;
         border: none;
         background: #244563;
-        box-shadow: 15px -17px 4px -7px rgba(0, 0, 0, 0.25);
-        border-radius: 0px 23px 0px 0px;
+        box-shadow: -6px -11px 19px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 23px 0px 0px 0px;
 }
-.empresario-title {
+.cliente-title2{
     cursor: pointer;
     width: 213px;
     height: 76px;
     background: #132A3E;
     border: none;
-    box-shadow: -6px -11px 19px 2px rgba(0, 0, 0, 0.25);
-    border-radius: 23px 0px 0px 0px;
+    box-shadow: 6px -11px 19px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 23px 0px 0px;
 
 }
 

@@ -34,6 +34,7 @@ body {
   justify-content: center;
   font-family: sans-serif;
   max-width: 35rem;
+  max-height: 40rem;
   flex-wrap: wrap;
 }
 
@@ -91,7 +92,7 @@ left: 10rem;
 
 .label-input {
   position: relative;
-  top: 0px;
+  top: 10px;
   left: 5px;
   margin: 5px 5px 5px 12px;
   pointer-events: none;
