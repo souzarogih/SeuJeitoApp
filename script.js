@@ -1,43 +1,60 @@
 
-function direcionaHome() {
+function home() {
   window.location.href = "index.html";
 }
 
-function direcionaempresario() {
-  window.location.href = "empresario/main-screen-empresario.html";
-}
-function direcionaempresario2() {
-  window.location.href = "criar-conta-empresario2.html"
-}
-function direcionacliente() {
-  window.location.href = "cliente/main-screen-cliente.html";
+function buscar() {
+  window.location.href = "buscar.html";
 }
 
-function direcionaLoginGoogle() {
-  window.location.href = "login/login-google.html";
+function login() {
+  window.location.href = "login.html";
 }
 
-function direcionaLoginApple() {
-  window.location.href = "login/login-apple.html";
-}
-
-function direcionaajuda() {
+function help() {
   window.location.href = "help.html";
 }
 
-function direcionaCriarConta() {
-  window.location.href = "criar-conta-cliente.html";
+function criarContaCliente() {
+  window.location.href = "login/cliente/criar-conta-cliente.html";
 }
 
-function direcionaTelaEmpresario() {
-  window.location.href = "criar-conta-empresario.html";
+function criarContaEmpresario() {
+  window.location.href = "login/empresario/criar-conta-empresario.html";
 }
 
-function direcionaempresario() {
-  window.location.href = "empresario/main-screen-empresario.html";
+function criarContaEmpresario2() {
+  window.location.href = "login/empresario/criar-conta-empresario2.html";
 }
 
-function direcionaempresario2() {
-  window.location.href = "criar-conta-empresario2.html"
+function criarContaEmpresario3() {
+  window.location.href = "login/empresario/criar-conta-empresario3.html";
 }
 
+function criarContaEmpresario4() {
+  window.location.href = "login/empresario/criar-conta-empresario4.html";
+}
+
+function criarContaEmpresario5() {
+  window.location.href = "login/empresario/criar-conta-empresario5.html";
+}
+
+function homeCliente() {
+  window.location.href = "pages/cliente/home-cliente.html";
+}
+
+function historico() {
+  window.location.href = "pages/cliente/historico.html";
+}
+
+function buscarCliente() {
+  window.location.href = "pages/cliente/buscar-cliente.html";
+}
+
+function agendamentos() {
+  window.location.href = "pages/cliente/agendamentos.html";
+}
+
+function homeEmpresario() {
+  window.location.href = "pages/empresario/home-empresario.html";
+}
