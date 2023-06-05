@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/criar-conta-empresario2.css
+  ">
+  <title>Cadastro Empresário</title>
+</head>
+<body>
+  <script src="script.js"></script>
+  <main class="container">
+
+    <div class="logo-pages">
+      <div> 
+        <img src="../images/button-back.png" class="button-back" onclick="direcionaHome()"></img>
+      </div>
+      <div class= "logo">
+        <img src="../images/doseujeito-logo-top.png" alt="Logo Do seu Jeito"> 
+      </div> 
+    </div>
+    
+    </div>
+    <div class="titulo">
+      <h1>Dados da Empresa</h1>
+      <br></div><br>
+    </div>
+    <form action="#">
+
+      <div class="input-group"> 
+        <div class="numero">
+          <form action="/cadastro" method="post">
+            <label for="num" class="label-input">(00)0 0000-0000:</label>
+            <input type="text" id="numero" name="numero do telefone" class= "inputUser" required><br><br><br>
+          </div>
+          <div class="Endereço">
+            <label for="End" class="label-input">Endereço:</label>
+            <input type="text" id="End" name="Endereço" class= "inputUser"required><br><br><br>
+          </div>
+          <div class="NumCasa">
+            <label for="Ncasa" class="label-input">Numero:</label>
+            <input type="number" id="Ncasa" name="Numero da casa" class= "inputUser" required><br><br><br>
+          </div>
+          <div class="Complemento">
+            <label for="Complemento" class="label-input">Complemento:</label>
+            <input type="text" id="Compl" name="Complemento da residencia" class= "inputUser" required><br><br>
+          </div>
+      </div>
+    
+    </form>
+    <div class="navegador">
+      <img href="Buscar.html" src="../images/nav-on.png"  class="nav-1" onclick="direcionaHome()"></img>
+      <img src="../images/nav-off.png" class="nav-1" onclick="direcionaHome()"></img>
+      <img src="../images/nav-off.png" class="nav-1" onclick="direcionaHome()"></img>
+      <img src="../images/nav-off.png" class="nav-1" onclick="direcionaHome()"></img>
+    </div>
+    <div class="avançar-button">
+      <button onclick="direcionaempresario2()" class="avançar"><a>Avançar</a></button>
+    </div>    
+  </main>
+  
+</body>
+</html>
