@@ -54,7 +54,7 @@ body{
 }
 
 .button:hover{
-  background-color: #091c2c; 
+  background-color: #091c2c;
    
 }
 
@@ -125,14 +125,14 @@ body{
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  height: 48px;
+  height: px;
   padding: 0 16px 0 12px;
   line-height: 1;
   transition: all 0.4s;
 }
 
 .navbar button:hover{
-  background-color: #ffffff;
+  background-color: #f1f1f1;
   border-radius: 1rem;
    
 }
@@ -234,10 +234,13 @@ padding: 10px;
 margin: 1rem;
 }
 
-.box-result img{}
+.box-result:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 212);
+}
 
 .title-result{
   display: flex;
+  align-items: center;
 
 }
 .title-result img{
@@ -249,3 +252,16 @@ margin: 1rem;
   margin: 1rem;
 }
 
+.title-result a {
+  margin: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color:#132A3E;
+}
+
+.better{
+  background: rgba(58, 175, 169, 0.22);
+  border: none;
+  margin-bottom: 4rem;
+}
