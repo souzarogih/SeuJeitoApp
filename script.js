@@ -13,6 +13,10 @@ function direcionacliente() {
   window.location.href = "cliente/main-screen-cliente.html";
 }
 
+function direcionaTelaLogin() {
+  window.location.href = "login.html";
+}
+
 function direcionaLoginGoogle() {
   window.location.href = "login/login-google.html";
 }
@@ -41,3 +45,10 @@ function direcionaempresario2() {
   window.location.href = "criar-conta-empresario2.html"
 }
 
+function direcionTelaBuscar() {
+  window.location.href = "buscar.html"
+}
+
+function direcionTelaHome() {
+  window.location.href = "index.html"
+}
