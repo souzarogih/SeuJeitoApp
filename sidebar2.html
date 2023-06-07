@@ -1,0 +1,138 @@
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    <style>
+      *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+
+      .sidebar{
+  position: fixed;
+  top: 0;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  background-color: #132A3E;
+  border: none;
+  z-index: 2;
+  transition: all 0.8s;
+}
+
+.sidebar-header{
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.logo-img{
+  width: 200px;
+  min-height: 50px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+.button{
+  height: 60px;
+  background: transparent;
+  border: none;
+  font-family: sans-serif;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  border-left: #D64620;
+  width: 100%;
+
+}
+
+.button-on{
+  height: 60px;
+  background-color: #091c2c;
+  border: none;
+  font-family: sans-serif;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+}
+
+.sidebar button > span{
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  height: 48px;
+  padding: 0 16px 0 12px;
+  line-height: 1;
+  transition: all 0.4s;
+}
+
+.button:hover{
+  background-color: #091c2c;
+   
+}
+
+.sidebar i {
+  position: relative;
+  font-size: 28px;
+  transition: all 0.2s;
+
+}
+
+.sidebarbutton span {
+  font-size: 16px;
+}
+
+.sidebar> nav{
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+
+
+    </style>
+
+
+<body>
+  <script src="script.js"></script>
+  <aside class="sidebar">
+    <header class="sidebar-header">
+      <img class="logo-img" src="images/doseujeito-logo-top.png" alt="Logo Do Seu Jeito">
+    </header>
+
+    <nav>
+      <a href="pages/empresario/home-empresario.html" target="_top">
+        <button class="button ">
+          <span>
+            <i class="material-symbols-outlined">home</i>
+            <span>Inicio</span>
+          </span>
+        </button>
+      </a>
+
+
+
+
+
+        <a href="pages/empresario/agendados.html" target="_top">
+          <button  class="button">
+            <span>
+              <i class="material-symbols-outlined">schedule</i>
+              <span>Agendamentos
+              </span>
+            </span>
+          </button>
+        </a>
+
+
+    </nav>
+  </aside>
+
+
+</body>
+  
