@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
     <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" type="image/jpg" href="images/seu-jeito.ico"/>
-    <title>Home</title>
+
+    <title>Início</title>
 </head>
 <body>
+
     <script src="script.js"></script>
     <aside class="sidebar">
       <header class="sidebar-header">
@@ -17,28 +18,11 @@
       </header>
 
       <nav>
-
-        <button class="button-on" onclick="direcionTelaHome()">
-          <span>
-            <i class="material-symbols-outlined">home</i>
-            <span>Inicio
-            </span>
-          </span>
-        </button>
-
-        <button class="button" onclick="direcionTelaBuscar()">
-          <span>
-            <i class="material-symbols-outlined">search</i>
-            <span>Buscar
-            </span>
-          </span>
-        </button>
-
-        <button class="button">
-          <span>
-            <i class="material-symbols-outlined">history</i>
-            <span>Historico
-
+        <a href="index.html" class="button button-on">
+          <button class="button button-on">
+            <span>
+              <i class="material-symbols-outlined">home</i>
+              <span>Inicio</span>
             </span>
           </button>
         </a>
@@ -51,6 +35,26 @@
             </span>
           </button>
         </a>
+        <a href="historico.html" class="button">
+          <button class="button">
+            <span>
+              <i class="material-symbols-outlined">history</i>
+              <span>Historico
+              </span>
+            </span>
+          </button>
+        </a>
+        <a href="agendamentos.html" class="button">
+          <button class="button">
+            <span>
+              <i class="material-symbols-outlined">schedule</i>
+              <span>Agendamentos
+              </span>
+            </span>
+          </button>
+        </a>
+
+
       </nav>
     </aside>
 
@@ -79,17 +83,19 @@
           </span>
         </button>
       
-
-        <button>
-          <img src="images/profile.png" alt="Profile user" onclick="direcionaTelaLogin()">
-        </button>
-
-
+        <a href="login.html">
+          <button>
+            <span>
+              <span>Login</span>
+            <img src="images/profile.png" alt="">
+            </span>
+          </button>
+        </a>
 
     </div>
 
   <main class="main-page">
-    <h1 class="titulo"> Faça o login para ter a melhor experiência.</h1>
+    <img src="testes/perfil.png" alt="">
 
   </main>
 
