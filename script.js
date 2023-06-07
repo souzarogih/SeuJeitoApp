@@ -34,7 +34,7 @@ function direcionaCriarConta() {
 }
 
 function direcionaTelaEmpresario() {
-  window.location.href = "criar-conta-empresario.html";
+  window.location.href = "empresario/criar-conta-empresario2.html";
 }
 
 function direcionaempresario() {
@@ -51,4 +51,8 @@ function direcionTelaBuscar() {
 
 function direcionTelaHome() {
   window.location.href = "index.html"
+}
+
+function direcionMaps() {
+  window.location.href = "https://www.google.com/maps/@-7.1386059,-34.858105,13z?entry=ttu"
 }
