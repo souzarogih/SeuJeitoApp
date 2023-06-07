@@ -12,7 +12,7 @@
     <script src="script.js"></script>
 
     
-      <a href="help.html" class="help" onclick="direcionaajuda()">Ajuda</a>
+      <a class="help" onclick="help()">Ajuda</a>
 
   
     <div class="logo">
@@ -28,15 +28,15 @@
         <label for="passwd-field" class="label-input">Senha</label>
         <input type="password"  class="inputUser">
        </div>
-       <a href="esqueci.html" class="forgot-pass">Esqueceu sua senha?</a>  
+       <a href="#" class="forgot-pass">Esqueceu sua senha?</a>  
     </div>
 
 
 
 
     <div class="enter-buttons">
-      <a href="pages/cliente/home-cliente.html"><button class="button1">Entre como Cliente</button></a>
-      <a href="pages/empresario/home-empresario.html"><button class="button1">Entre como Empresário</button></a>
+      <button onclick="homeCliente()" class="button1">Entre como Cliente</button>
+      <button onclick="homeEmpresario()" class="button1">Entre como Empresário</button>
     </div>
   
 
@@ -45,7 +45,7 @@
       <button onclick="direcionaLoginApple()" class="login-apple">Entrar com conta Apple</button>
     </div>
   
-    <a onclick="direcionaCriarConta()" class="creat-account">Criar uma conta</a>
+    <a onclick="criarContaCliente()" class="creat-account">Criar uma conta</a>
   </div>
  
   

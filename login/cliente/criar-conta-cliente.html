@@ -2,7 +2,7 @@
   <head>
     <meta charset="UTF-8">
     <title> Crie Sua Canta</title>
-    <link rel="stylesheet" href="css/criar-conta-cliente.css">
+    <link rel="stylesheet" href="../../css/criar-conta-cliente.css">
   </head>
   <body class="main-page">
 
@@ -12,16 +12,24 @@
 
       <div class="logo-pages">
         <div> 
-          <img href="index.html" src="images/button-back.png" class="button-back" onclick="direcionaHome()"></img>
+          <a href="../../login.html">
+            <img href="index.html" src="../../images/button-back.png" class="button-back" ></img>
+          </a>
+          
         </div>
         <div class= "logo">
-          <img src="images/doseujeito-logo-top.png" alt="Logo Do seu Jeito"> 
+          <img src="../../images/doseujeito-logo-top.png" alt="Logo Do seu Jeito"> 
         </div> 
       </div>
   
       <div class="userType">
-        <button onclick="direcionaTelaCliente()" class="cliente-title2">Cliente</button>
-        <button onclick="direcionaTelaEmpresario()" class="empresario-title">Empresário</button>
+        <a href="criar-conta-cliente.html">
+          <button class="cliente-title2">Cliente</button>
+        </a>
+        <a href="../../login/empresario/criar-conta-empresario.html">
+          <button class="empresario-title">Empresário</button>
+        </a>
+
       </div>
 
         <form action="/cadastro" method="post" >
@@ -55,7 +63,9 @@
         </form>
 
         <div class="avançar-button">
-          <button onclick="direcionaempresario2()" class="avançar"><a>Avançar</a></button>
+          <a href="../../pages/cliente/home-cliente.html">
+            <button  class="avançar">Avançar</button>
+          </a>
         </div>  
 
     </div>
