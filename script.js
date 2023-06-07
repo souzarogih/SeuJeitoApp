@@ -18,6 +18,7 @@ function help() {
 
 function criarContaCliente() {
   window.location.href = "login/cliente/criar-conta-cliente.html";
+}
 
 function direcionaTelaLogin() {
   window.location.href = "login.html";
