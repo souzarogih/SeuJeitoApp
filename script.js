@@ -1,17 +1,23 @@
 
-function direcionaHome() {
+function home() {
   window.location.href = "index.html";
 }
 
-function direcionaempresario() {
-  window.location.href = "empresario/main-screen-empresario.html";
+function buscar() {
+  window.location.href = "buscar.html";
 }
-function direcionaempresario2() {
-  window.location.href = "criar-conta-empresario2.html"
+
+function login() {
+  window.location.href = "login.html";
 }
-function direcionacliente() {
-  window.location.href = "cliente/main-screen-cliente.html";
+
+function help() {
+  window.location.href = "help.html";
 }
+
+
+function criarContaCliente() {
+  window.location.href = "login/cliente/criar-conta-cliente.html";
 
 function direcionaTelaLogin() {
   window.location.href = "login.html";
@@ -21,28 +27,47 @@ function direcionaLoginGoogle() {
   window.location.href = "login/login-google.html";
 }
 
-function direcionaLoginApple() {
-  window.location.href = "login/login-apple.html";
+function criarContaEmpresario() {
+  window.location.href = "login/empresario/criar-conta-empresario.html";
 }
 
-function direcionaajuda() {
-  window.location.href = "help.html";
+function criarContaEmpresario2() {
+  window.location.href = "login/empresario/criar-conta-empresario2.html";
 }
 
-function direcionaCriarConta() {
-  window.location.href = "criar-conta-cliente.html";
+function criarContaEmpresario3() {
+  window.location.href = "login/empresario/criar-conta-empresario3.html";
 }
 
-function direcionaTelaEmpresario() {
-  window.location.href = "empresario/criar-conta-empresario2.html";
+
+function criarContaEmpresario4() {
+  window.location.href = "login/empresario/criar-conta-empresario4.html";
+
 }
 
-function direcionaempresario() {
-  window.location.href = "empresario/main-screen-empresario.html";
+function criarContaEmpresario5() {
+  window.location.href = "login/empresario/criar-conta-empresario5.html";
 }
 
-function direcionaempresario2() {
-  window.location.href = "criar-conta-empresario2.html"
+function homeCliente() {
+  window.location.href = "pages/cliente/home-cliente.html";
+}
+
+function historico() {
+  window.location.href = "pages/cliente/historico.html";
+}
+
+function buscarCliente() {
+  window.location.href = "pages/cliente/buscar-cliente.html";
+}
+
+function agendamentos() {
+  window.location.href = "pages/cliente/agendamentos.html";
+}
+
+
+function homeEmpresario() {
+  window.location.href = "pages/empresario/home-empresario.html";
 }
 
 function direcionTelaBuscar() {
@@ -52,6 +77,7 @@ function direcionTelaBuscar() {
 function direcionTelaHome() {
   window.location.href = "index.html"
 }
+
 
 function direcionMaps() {
   window.location.href = "https://www.google.com/maps/@-7.1386059,-34.858105,13z?entry=ttu"
