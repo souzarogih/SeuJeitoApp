@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" type="image/jpg" href="images/seu-jeito.ico"/>
-    <title>Início</title>
+    <title>Home</title>
 </head>
 <body>
     <script src="script.js"></script>
@@ -17,11 +17,28 @@
       </header>
 
       <nav>
-        <a href="index.html" class="button button-on">
-          <button class="button button-on">
-            <span>
-              <i class="material-symbols-outlined">home</i>
-              <span>Inicio</span>
+
+        <button class="button-on" onclick="direcionTelaHome()">
+          <span>
+            <i class="material-symbols-outlined">home</i>
+            <span>Inicio
+            </span>
+          </span>
+        </button>
+
+        <button class="button" onclick="direcionTelaBuscar()">
+          <span>
+            <i class="material-symbols-outlined">search</i>
+            <span>Buscar
+            </span>
+          </span>
+        </button>
+
+        <button class="button">
+          <span>
+            <i class="material-symbols-outlined">history</i>
+            <span>Historico
+
             </span>
           </button>
         </a>
@@ -62,14 +79,12 @@
           </span>
         </button>
       
-        <a href="login.html">
-          <button>
-            <span>
-              <span>Login</span>
-            <img src="images/profile.png" alt="">
-            </span>
-          </button>
-        </a>
+
+        <button>
+          <img src="images/profile.png" alt="Profile user" onclick="direcionaTelaLogin()">
+        </button>
+
+
 
     </div>
 

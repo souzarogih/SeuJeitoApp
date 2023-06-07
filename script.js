@@ -15,8 +15,16 @@ function help() {
   window.location.href = "help.html";
 }
 
+
 function criarContaCliente() {
   window.location.href = "login/cliente/criar-conta-cliente.html";
+
+function direcionaTelaLogin() {
+  window.location.href = "login.html";
+}
+
+function direcionaLoginGoogle() {
+  window.location.href = "login/login-google.html";
 }
 
 function criarContaEmpresario() {
@@ -55,6 +63,16 @@ function agendamentos() {
   window.location.href = "pages/cliente/agendamentos.html";
 }
 
+
 function homeEmpresario() {
   window.location.href = "pages/empresario/home-empresario.html";
 }
+
+function direcionTelaBuscar() {
+  window.location.href = "buscar.html"
+}
+
+function direcionTelaHome() {
+  window.location.href = "index.html"
+}
+
